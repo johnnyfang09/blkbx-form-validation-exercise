@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> contact </title>
+	<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		
+		<div id="main_wrapper">	
+			<!-- HEADER -->
+			<div id="header">
+
+				<div class="logo"></div>
+				
+				<div id="nav_wrapper">
+					<ul class="nav">
+						<li><a href="#">HOME</a></li>
+						<li>|</li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<!-- INFORMATION -->
+			<div id="form_content">
+
+				<div id="form">
+					<fieldset id="field_wrapper">
+					<form name="contactForm" action="" method="post">
+						<div id="personal_information">
+							<fieldset id="field_personal">
+							<legend>Personal information:</legend>
+								<label id="lblFirst" for="firstname">First Name*</label>
+								<input id="firstName" type="text" name="firstname" required>
+								
+								<label id="lblLast" for="lastname">Last Name*</label>
+								<input id="lastName" type="text" name="lastname" required>
+								
+								<fieldset id="gender">
+								<legend>Gender*</legend>
+									<label id="lblMale" for="male">Male</label>
+									<input id="male" type="radio" name="sex" value="male" required>
+								
+									<label id="lblFemale" for="female">Female</label>
+									<input id="female" type="radio" name="sex" value="female" required>
+								</fieldset>
+								
+								<label id="lblAddress" for="address">Address</label>
+								<input id="address"type="text" name="address">
+								
+								<label id="lblCity" for="city">City</label>
+								<input id="city" type="text" name="city">
+
+								<label id="lblState" for="state">State</label>
+								<input id="state" type="text" name="state">
+
+								<label id="lblZip" for="zip">ZipCode</label>
+								<input id="zip" type="text" name="city"></label>
+
+								<label id="lblCountry" for="country">Country</label>
+								<select id="selCountry">
+									<option value="Antarctica">Antarctica</option>
+									<option value="Australia">Australia</option>
+									<option value="Belgium">Belgium</option>
+									<option value="Canada">Canada</option>
+									<option value="Germany">Germany</option>
+									<option value="United States">United States</option>
+								</select>
+
+
+							</fieldset>
+						</div>
+						
+						<div id="contact_information">
+							<fieldset id="contact">
+							<legend>Contact information:</legend>
+								<label id="lblEmail" for="email">Email*</label>
+								<input id="email" type="text" name="email" required>
+
+								<label id="lblConfirm" for="confirm">Confirm your email*</label>
+								<input id="emailConfirm" type="text" name="emailConfirm" required>
+
+								<label id="lblPhone" for="phone">PhoneNumber</label>
+								<input id="phone" type="tel" name="phone">
+							</fieldset>
+						</div>
+
+						<div id="newsletter_information">
+							<fieldset id="newsletter">
+							<legend>Newsletter Sign-up:</legend>
+								<input id="news_Check" type="checkbox" name="news_Check" value="check">
+								<label id="lblNews" for="news">Check the box to subscribe to BLKBX news!</label>
+
+								<label id="lblPassword" for="password">Password</label>
+								<input id="password" type="password" name="password" value="password">
+
+								<label id="lblPassword_confirm" for="password_confirm">Confirm your password</label>
+								<input id="password_confirm" type="password" name="password_confirm" value="password_confirm">
+							</fieldset>
+						</div>
+
+						<div id="area_wrapper">
+							<textarea id="form_area" rows="10"></textarea>
+						</div>
+
+
+
+
+						<div id="buttons_wrapper">
+							<button id="buttons" type="button">Info</button>
+							<button id="clear" type="button>">Clear</button>
+							<button id="submit" type="button">Submit</button>
+						</div>
+
+
+
+					</form>
+				</fieldset>
+				</div>
+
+			</div>
+
+	</body>
+</html>
