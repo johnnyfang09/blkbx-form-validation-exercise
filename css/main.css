@@ -1,0 +1,427 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background-color:#000000;
+	color:#f0f0f0;
+	font-family:Arial;
+}
+
+div, a, img {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+	color:#fff;
+	font-family:Arial;
+}
+
+a:hover {
+	color:#008000;
+}
+
+div, ul {
+	margin:0px;
+	padding:0px;
+}
+
+
+/* GENERAL */
+
+#main_wrapper {
+	width:100%;
+	height:100%;
+	line-height:22px;
+}
+
+#header {
+	width:100%;
+	height:58px;
+	border-bottom:3px solid orange;
+}
+
+#main_content {
+	width:700px;
+	height:100%;
+	margin:0px auto;
+	padding-top:80px;
+
+}
+
+/* NAV */
+
+#nav_wrapper li {
+	display:inline;
+}
+
+.logo {
+	background:url(../images/logoimage.png)no-repeat;
+	width:185px;
+	height:35px;
+	float:left;
+	margin:10px 0px 20px 10px;
+}
+
+#nav_wrapper ul {
+	float:left;
+	margin:24px 0px 20px 239px;
+}
+
+#box_1 {
+	text-indent:50px;
+}
+
+#section_1 {
+	height:160px;
+	background:url(../images/image1.png)no-repeat;
+}
+
+#box_1 {
+	margin-left:155px;
+	padding-left:10px;
+}
+
+#box_2 {
+	margin-left:155px;
+	padding-left:10px;
+
+}
+
+.bold {
+	font-weight:bold;
+}
+.italics {
+	font-style:italic;
+}
+.underline {
+	text-decoration:underline;
+}
+.sentence {
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+#section_2 {
+	margin-top:50px;
+}
+
+#box_3 {
+	text-align:center;
+}
+
+#unordered_list {
+	padding-left:80px;
+}
+
+
+#right {
+	float:left;
+
+}
+
+#left {
+	float:left;
+}
+
+#section_3 {
+	padding-top:80px;
+}
+
+#section_4 {
+	border-bottom:3px solid white;
+	width:100%;
+	height:30px;
+	margin-top:40px;
+}
+
+#section_5 {
+	width:100%;
+	border:0px solid white;
+	height:200;
+	margin-top:80px;
+}
+
+.table_row {
+	width:100%;
+	height:30px;
+}
+
+.tableCell_100 {
+	width:98px;
+	border:1px solid white;
+	height:30px;
+	float:left;
+}
+
+.tableCell_600 {
+	width:598px;
+	border:1px solid white;
+	height:30px;
+	float:left;
+}
+
+#section_6 {
+	margin-top:80px;
+}
+
+#two {
+	position:relative;
+	left:577px;
+}
+
+#section_7 {
+	margin-top:320px;
+	padding-bottom:20px;
+}
+
+#unordered {
+	list-style-type:none;
+}
+
+#unordered li:before {
+	content: "  -  "
+}
+
+
+/* FORM */
+
+#form_content {
+	width:700px;
+	height:100%;
+	margin:0px auto;
+	padding-top:80px;
+}
+
+#form {
+
+}
+
+#field_wrapper {
+	height:700px;
+}
+
+/* PERSONAL_INFORMATION */
+#field_personal {
+	height:190px;
+}
+
+#gender {
+	width:80px;
+	position:relative;
+	left:500px;
+	bottom:32px;
+}
+
+#female {
+
+}
+
+#male {
+	position:relative;
+	left:18px;
+
+}
+
+#lblFem {
+
+}
+
+#lblMale {
+	position:relative;
+	left:18px;
+	
+}
+
+#firstName {
+	position:relative;
+	top:25px;
+	right:88px;
+}
+
+#lastName {
+	position:relative;
+	top:25px;
+	right:88px;
+}
+
+#lblAddress {
+	position:relative;
+	bottom:45px;
+}
+
+#address {
+	position:relative;
+	bottom:20px;
+	right:64px;
+	width:220px;
+}
+
+#lblCity {
+	position:relative;
+	bottom:45px;
+	right:33px;
+}
+
+#city {
+	position:relative;
+	bottom:20px;
+	right:64px;
+}
+
+#lblState {
+	position:relative;
+	bottom:45px;
+	right:33px;
+}
+
+#state {
+	position:relative;
+	bottom:20px;
+	right:73px;
+}
+
+#lblZip {
+	position:relative;
+	bottom:8px;
+}
+
+#zip {
+	position:relative;
+	top:18px;
+	right:65px;
+}
+
+#lblCountry {
+	position:relative;
+	bottom:8px;
+}
+
+#selCountry {
+	position:relative;
+	top:18px;
+	right:61px;
+}
+/* CONTACT_INFORMATION */
+#contact_information {
+	margin-top:10px;
+}
+
+#contact {
+	height:130px;
+}
+
+#email {
+	position:relative;
+	top:25px;
+	right:50px;
+	width:200px;
+}
+
+#emailConfirm {
+	position:relative;
+	top:25px;
+	right:145px;
+	width:200px;
+}
+
+#lblPhone {
+	position:relative;
+	top:40px;
+	left:0px;
+}
+
+#phone {
+	position:relative;
+	top:65px;
+	right:108px;
+	width:200px;
+}
+
+/* NEWSLETTER_INFORMATION */
+#newsletter_information {
+	margin-top:10px;
+}
+
+#newsletter{
+	height:100px;
+}
+#lblPassword {
+	position:relative;
+	top:30px;
+	right:338px;
+}
+
+#password {
+	position:relative;
+	top:55px;
+	right:412px;
+	width:200px;
+}
+
+#lblPassword_confirm {
+	position:relative;
+	top:9px;
+	left:250px;
+}
+
+#password_confirm {
+	position:relative;
+	top:33px;
+	left:82px;
+	width:200px;
+}
+
+#buttons {
+	width:60px;
+	height:25px;
+	position:relative;
+	top:5px;
+	cursor: pointer;
+}
+
+#area_wrapper {
+	margin-top:20px;
+}
+
+#area {
+	resize:none;
+	width:300px;
+	float:left;
+	margin:0px 32px 0px 32px;
+}
+
+#clear {
+	width:100px;
+	height:25px;
+	position:relative;
+	top:5px;
+	left:340px;
+	cursor:pointer;
+}
+
+#submit {
+padding: 6px 33px 11px !important;
+font-size: 12px !important;
+background-color: #fc9700;
+text-shadow: 1px 1px #57D6C7;
+color: #000000;
+border-radius: 2px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+height:28px;
+position:relative;
+top:6px;
+left:390px;
+}
+
+#form_area {
+	width:660px;
+}
+
